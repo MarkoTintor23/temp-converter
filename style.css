@@ -1,0 +1,64 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #ebed6d, #d6baf5);
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.converter {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+  border-color: #2193b0;
+}
+
+input[type="number"]::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
